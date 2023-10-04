@@ -80,16 +80,13 @@ footer p a {
 }
 
 
-.round {
-	border-radius: 8px;
-}
-
 #contact {
   text-align: center;
 }
 
 #contact .contact-email-link {
 	color: rosybrown;
+	background-color:beige;
 	text-decoration: none;
 	text-align: center;
 }
