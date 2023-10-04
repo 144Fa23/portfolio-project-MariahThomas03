@@ -9,11 +9,16 @@ body, header, nav, main, footer, h1, h3, h4, div, img, ul, ol {
   border: 0;
 }
 
-/* Style Rules for images */
+/* Style Rules for images and body */
 
 img{
 	max-width: 100%;
+	text-align: center;
 	display: block;	
+}
+
+body {
+  background-color: rosybrown;
 }
 
 /* Style rule for header */
@@ -68,10 +73,11 @@ main {
 
 /* Style rules for footer content */
 footer p {
-  font-size: 0.75em;
-  text-align: center;
-  color: rosybrown;
-  padding: 0 1em;
+	font-size: 0.75em;
+	text-align: center;
+	background-color: beige;
+	color: rosybrown;
+	padding: 0 1em;
 }
 
 footer p a {
