@@ -1,0 +1,101 @@
+/*
+Name : Mariah Thomas
+Date: 10-3-23
+File name: style.class*/
+/*CSS Reset */
+body, header, nav, main, footer, h1, h3, h4, div, img, ul, ol {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Style Rules for images */
+
+img{
+	max-width: 100%;
+	display: block;	
+}
+
+/* Style rule for header */
+header {
+	background-color:rosybrown;
+	color: beige;
+	border: none;
+}
+
+/* Style rules for navigation area */
+
+nav{
+	padding: 5%;
+	margin-bottom:5%;
+}
+nav ul{
+	list-style-type: none
+}
+
+nav li {
+	font-size: 1.5em;
+	font-family: 'Roboto Slab', sans-serif;
+	border-top: 1px;
+
+}
+nav li a {
+	display:block;
+	color: beige;
+	background-color: rosybrown;
+  	text-decoration-color: blanchedalmond;
+	padding: 5%;
+}
+
+
+/* Style rules for main content */
+main {
+	background-color: rosybrown;
+	color: beige;
+	padding: 10%;
+	font-family: 'Roboto Slab', serif;
+	border: none;
+}
+
+.tel-link{
+	background-color: rosybrown;
+	padding: 2%;
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	border-radius: 5px;				
+}
+
+/* Style rules for footer content */
+footer p {
+  font-size: 0.75em;
+  text-align: center;
+  color: rosybrown;
+  padding: 0 1em;
+}
+
+footer p a {
+  color: rosybrown;
+  text-decoration: none;
+}
+
+
+.round {
+	border-radius: 8px;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact .contact-email-link {
+	color: rosybrown;
+	text-decoration: none;
+	text-align: center;
+}
+
+.map {
+	border: 2px;
+	width: 95%;
+	height: 50%
+}
