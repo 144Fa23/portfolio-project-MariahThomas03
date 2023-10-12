@@ -14,7 +14,6 @@ body, header, nav, main, footer, h1, h3, h4, div, img, ul {
 
 img{
 	max-width: 100%;
-	text-align: left;
 	display: block;	
 }
 
@@ -120,7 +119,7 @@ footer p a {
 
 .map {
 	border: 2px;
-	width: 95%;
+	width: 50%;
 	height: 50%;
 }
 
@@ -133,3 +132,60 @@ footer p a {
   display: none;
 }
 
+/* Media Query for Tablet Viewport*/
+@media screen and (min-width: 600px), print {
+	
+/* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+.tablet-desktop{
+	display: block;
+}
+.mobile{
+	display: none;
+}
+	
+	/* Tablet Viewport: Style Rule for header */
+header{
+	position:static;
+	padding-bottom: 2%;
+}
+ 
+/* Tablet Viewport: Style rules for main content area*/
+main {
+	margin: 0 0 4% 10%;
+	text-align: center;
+}
+}
+
+
+/*Media query for Desktop Viewport*/
+@media screen and (min-width: 600px), print{
+	/*Desktop Viewport:Style rule for header*/
+header{
+	width: 50%;
+	float: left;
+	padding-bottom: 0;
+	text-align: center;
+	}
+	
+/*Desktop Viewport: Style Rule for nav area*/
+	nav a{
+		float: right;
+		width: 70%;
+		margin: 4em 1em 0 0;
+}
+	
+	nav ul{
+		text-align: right;
+}
+	
+	nav a:hover{
+		color: forestgreen;
+		background-color: beige;
+		
+}
+	
+/*Desktop Viewport: Style rules for main content*/
+	main{
+		clear: left;
+}	
+}
