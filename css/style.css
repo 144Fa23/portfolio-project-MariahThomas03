@@ -2,8 +2,9 @@
 Name : Mariah Thomas
 Date: 10-3-23
 File name: style.class*/
+
 /*CSS Reset */
-body, header, nav, main, footer, h1, h3, h4, div, img, ul, ol {
+body, header, nav, main, footer, h1, h3, h4, div, img, ul {
   margin: 0;
   padding: 0;
   border: 0;
@@ -13,92 +14,123 @@ body, header, nav, main, footer, h1, h3, h4, div, img, ul, ol {
 
 img{
 	max-width: 100%;
-	text-align: center;
+	text-align: left;
 	display: block;	
 }
 
 body {
-  background-color: rosybrown;
+  background-color: forestgreen;
 }
 
+/* Style Rules for mobile viewport*/
+
 /* Style rule for header */
+
 header {
-	background-color:rosybrown;
+	background-color:forestgreen;
 	color: beige;
-	border: none;
+	border: 60;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.75em;
+	text-align: center;
 }
 
 /* Style rules for navigation area */
-
 nav{
 	padding: 5%;
+	text-align: center;
 	margin-bottom:5%;
+	font-family: 'Rubik', sans-serif;
 }
 nav ul{
-	list-style-type: none
+	list-style-type: none;
+	font-family: 'Rubik', sans-serif;
 }
 
 nav li {
 	font-size: 1.5em;
-	font-family: 'Roboto Slab', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	border-top: 1px;
 
 }
 nav li a {
 	display:block;
 	color: beige;
-	background-color: rosybrown;
+	background-color: forestgreen;
   	text-decoration-color: blanchedalmond;
 	padding: 5%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.75em;
 }
 
 
 /* Style rules for main content */
 main {
-	background-color: rosybrown;
+	background-color: forestgreen;
 	color: beige;
 	padding: 10%;
-	font-family: 'Roboto Slab', serif;
-	border: none;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.0em;
+	text-align: center;
+	border-top-color: beige;
+	border-top: 10px;
+}
+
+.round{
+	border-radius: 30px;
+}
+
+#hobbies{
+	font-family: 'Rubik', sans-serif;
 }
 
 .tel-link{
-	background-color: rosybrown;
+	background-color: forestgreen;
 	padding: 2%;
 	margin: 0 auto;
 	width: 80%;
-	text-align: center;
-	border-radius: 5px;				
+	text-align: center;	
+	font-family: 'Rubik', sans-serif;
 }
 
 /* Style rules for footer content */
 footer p {
-	font-size: 0.75em;
+	font-size: 1.0em;
 	text-align: center;
 	background-color: beige;
-	color: rosybrown;
-	padding: 0 1em;
+	color: forestgreen;
 }
 
 footer p a {
-  color: rosybrown;
+  color: forestgreen;
   text-decoration: none;
 }
 
 
 #contact {
-  text-align: center;
+  	text-align: center;
+	font-family: 'Rubik', sans-serif;
 }
 
 #contact .contact-email-link {
-	color: rosybrown;
+	color: forestgreen;
 	background-color:beige;
 	text-decoration: none;
-	text-align: center;
+	font-family: 'Rubik', sans-serif;
 }
 
 .map {
 	border: 2px;
 	width: 95%;
-	height: 50%
+	height: 50%;
 }
+
+/* Show mobile class, hid tablet-desktop class */
+.mobile {
+  display: block;
+}
+
+.tablet-desktop {
+  display: none;
+}
+
